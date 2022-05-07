@@ -1,0 +1,73 @@
+#video-call-div 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#local-video 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 16px;
+    border-radius: 16px;
+    max-width: 20%;
+    max-height: 20%;
+    background: #ffffff;
+}
+
+#remote-video
+{
+    background: #000000;
+    width: 100%;
+    height: 100%;
+}
+
+#user-input-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+#username-input
+{
+    font-size: 50px;
+    text-align: center;
+}
+
+#user-buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-buttons button
+{
+    width: 35%;
+    font-size: 25px;
+}
+
+.call-action-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 32px;
+}
+
+.call-action-div button
+{
+    font-size: 40px;
+}
+
+button
+{
+    cursor: pointer;
+}
