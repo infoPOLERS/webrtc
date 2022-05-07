@@ -80,7 +80,7 @@ webSocket.on('request', (req) =>
     connection.on('close', (reason, description) =>
     {
         users.forEach(user =>
-            {
+        {
             if (user.conn == connection)
             {
                 users.splice(users.indexOf(user), 1);

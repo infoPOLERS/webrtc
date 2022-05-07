@@ -90,8 +90,7 @@ function joinCall()
 
         peerConn.onicecandidate = ((e) =>
         {
-            if (e.candidate == null){return}
-            
+            if (e.candidate == null){return}            
             sendData({type: "send_candidate", candidate: e.candidate});
         })
 
